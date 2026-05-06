@@ -1,5 +1,5 @@
 class Solution:
-    def trap(self, height: List[int]) -> int:
+    def trap(self, height) -> int:
         maxi=0
         max_right=0
         max_left=0
@@ -19,4 +19,5 @@ class Solution:
                     maxi+=max_right-height[h]
                 h-=1
         return maxi
-        
+obj=Solution()
+print(obj.trap([4,2,0,3,2,5]))
