@@ -1,4 +1,2 @@
-for i in range(5):
-    print(i)
-for i in range(10):
-    print(i)
+mult=lambda x,y:x*y
+print(mult(5,90))
