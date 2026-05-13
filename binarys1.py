@@ -10,7 +10,6 @@ class Solution:
                 l=mid+1
             else:
                 h=mid-1
-
         return l    
 obj=Solution()
 print(obj.searchInsert([1,3,5,6],2))
