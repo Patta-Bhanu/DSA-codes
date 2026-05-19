@@ -1,2 +1,2 @@
-mult=lambda x,y:x*y
-print(mult(5,90))
+for i in range(0,10,2):
+    print(i)
