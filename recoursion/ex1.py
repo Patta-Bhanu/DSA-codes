@@ -1,6 +1,7 @@
 def print1(n):
-    if n>10:
+    if n==0:
         return
-    print(n," ",end="")
-    print1(n+1)
-print1(1)
+    print(n)
+    print1(n-1)
+    print(n)
+print1(5)
