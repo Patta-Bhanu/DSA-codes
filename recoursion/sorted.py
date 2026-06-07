@@ -1,5 +1,5 @@
 def sorted(nums,i):
-    if i+1==len(nums):
+    if i==len(nums)-1:
         return True
     if nums[i]>nums[i+1]:
         return False
